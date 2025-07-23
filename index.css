@@ -1,0 +1,52 @@
+
+
+*{
+    box-sizing: border-box;
+    margin: 0px;
+}
+
+.bg-container{
+    height: 100vh;
+    background-color: azure;
+}
+
+.gpa-container{
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.bg-container-head{
+    font-size: 1.7em;
+}
+
+.calculator-container{
+    height: 80vh;
+    width: 90vw;
+    background-color: white;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding: 20px;
+}
+
+.course-container{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.course-container-name{
+    font-size: 1.5em;
+}
+
+.grade-container{
+    display: flex;
+    gap: 10px;
+}
+
+.grade-container-head{
+    font-size: 1.3em;
+}
