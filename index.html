@@ -8,106 +8,43 @@
 </head>
 <body>
     <div class="bg-container">
+        <h1 class="bg-container-head">GPA Calculator</h1>
 
         <div class="gpa-container">
-            <h1 class="bg-container-head">GPA CALCULATOR - 5th Sem</h1>
-            <div class="calculator-container">
-
-                <div class="course-container">
-                    <h1 class="course-container-name">Computer Networks</h1>
-                    <div class="grade-container">
-                        <h2 class="grade-container-head">Grade</h2>
-                        <select name="grade" id="grade">
-                            <option value="O">O</option>
-                            <option value="APlus">A+</option>
-                            <option value="A">A</option>
-                            <option value="BPlus">B+</option>
-                            <option value="B">B</option>
-                            <option value="C">C</option>
-                        </select>
-                    </div>
-                </div>
-
-                <div class="course-container">
-                    <h1 class="course-container-name">Algorithms</h1>
-                    <div class="grade-container">
-                        <h2 class="grade-container-head">Grade</h2>
-                        <select name="grade" id="grade">
-                            <option value="O">O</option>
-                            <option value="APlus">A+</option>
-                            <option value="A">A</option>
-                            <option value="BPlus">B+</option>
-                            <option value="B">B</option>
-                            <option value="C">C</option>
-                        </select>
-                    </div>
-                </div>
-
-                <div class="course-container">
-                    <h1 class="course-container-name">Operating Systems</h1>
-                    <div class="grade-container">
-                        <h2 class="grade-container-head">Grade</h2>
-                        <select name="grade" id="grade">
-                            <option value="O">O</option>
-                            <option value="APlus">A+</option>
-                            <option value="A">A</option>
-                            <option value="BPlus">B+</option>
-                            <option value="B">B</option>
-                            <option value="C">C</option>
-                        </select>
-                    </div>
-                </div>
-
-                <div class="course-container">
-                    <h1 class="course-container-name">Theory of Computations</h1>
-                    <div class="grade-container">
-                        <h2 class="grade-container-head">Grade</h2>
-                        <select name="grade" id="grade">
-                            <option value="O">O</option>
-                            <option value="APlus">A+</option>
-                            <option value="A">A</option>
-                            <option value="BPlus">B+</option>
-                            <option value="B">B</option>
-                            <option value="C">C</option>
-                        </select>
-                    </div>
-                </div>
-
-                <div class="course-container">
-                    <h1 class="course-container-name">Database Management System</h1>
-                    <div class="grade-container">
-                        <h2 class="grade-container-head">Grade</h2>
-                        <select name="grade" id="grade">
-                            <option value="O">O</option>
-                            <option value="APlus">A+</option>
-                            <option value="A">A</option>
-                            <option value="BPlus">B+</option>
-                            <option value="B">B</option>
-                            <option value="C">C</option>
-                        </select>
-                    </div>
-                </div>
-
-                <div class="course-container">
-                    <h1 class="course-container-name">Enviroinmental Science and Sustainability</h1>
-                    <div class="grade-container">
-                        <h2 class="grade-container-head">Grade</h2>
-                        <select name="grade" id="grade">
-                            <option value="O">O</option>
-                            <option value="APlus">A+</option>
-                            <option value="A">A</option>
-                            <option value="BPlus">B+</option>
-                            <option value="B">B</option>
-                            <option value="C">C</option>
-                        </select>
-                    </div>
-                </div>
-
-            </div>
-
             
-        </div>
+            <div class="course-container">
+                
+                <div class="course-container-name">
+                    <h2 class="course-container-name-head">Course Name</h2>
+                    <input class="course-container-name-value" type="text" placeholder="eg. Database Management System">
+                </div>
 
+                <div class="course-container-value">
+                    <div class="course-container-inner-value">
+                        <h2 class="course-container-value-head">Credits</h2>
+                        <Select class="course-container-inner-credit" name="credit" id="credit">
+                            <option value="one">1</option>
+                            <option value="onepf">1.5</option>
+                            <option value="two">2</option>
+                            <option value="three">3</option>
+                            <option value="four">4</option>
+                        </Select>
+                    </div>
+
+                    <div class="course-container-inner-value">
+                        <h2 class="course-container-value-head">Grade</h2>
+                        <Select class="course-container-inner-grade" name="grade" id="credit">
+                            <option value="O">O</option>
+                            <option value="Aplus">A+</option>
+                            <option value="A">A</option>
+                            <option value="Bplus">B+</option>
+                            <option value="B">B</option>
+                            <option value="C">C</option>
+                        </Select>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
 </body>
 </html>
